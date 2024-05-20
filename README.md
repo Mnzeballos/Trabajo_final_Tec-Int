@@ -3,6 +3,7 @@ Trabajo final de la materia "Introducción a las técnicas inteligentes de resol
 ## Introducción  
 ## Instalación  
 ## Ejecución  
+Construido y ejecutado en *Python 3.11.7*
 ## Algunas otras consideraciones si las hubiera  
 ## Autor  
-**Manuel Zeballos**
+**Biol. Manuel Zeballos**
