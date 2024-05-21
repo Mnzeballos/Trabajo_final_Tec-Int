@@ -1,9 +1,9 @@
 # Trabajo Final  
 Trabajo final de la materia "Introducción a las técnicas inteligentes de resolución de problemas de planificación, secuenciación y ejecución". Maestría en Aplicación de Información Espacial (CONAE - FAMAF)
 ### Este repositorio contiene:
-- Notebook con el código explicado: Notas y código.ipynb
-- Archivo Readme: README.md
-- Imagen NDVI resultante: 
+- Notebook con el código explicado: *Notas y código.ipynb*
+- Archivo Readme: *README.md*
+- Imagen NDVI resultante: *ndviImage.tif*
 ## Introducción  
 Para este trabajo se implementó un programa en Python para el cálculo de NDVI en un cuerpo de agua.  
 Se implementó a partir de un archivo zipeado del recorte de la zona de estudio de una imagen satelital Landsat 8, en una fecha dada. El archivo zip contiene las bandas ópticas del sensor.
@@ -18,7 +18,7 @@ La ejecución se conforma de 5 pasos:
    3. Histogramas de las bandas.
    4. Cálculo de outliers y enmascaramiento de los mismos
 4. **Cálculo de MNDWI**
-   1. A partir de las bandas 3 y 6 se construye el índice
+   1. A partir de las bandas 3 y 6 se construye el índice  
    Fórmula de referencia *MNDWI = (Verde – SWIR)/(Verde + SWIR)*   
    2. Construcción de máscara de valores superiores de MNDWI para recortar el área del lago.
 5. **Recorte de bandas con la máscara de MNDWI**
