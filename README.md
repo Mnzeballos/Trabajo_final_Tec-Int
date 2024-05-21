@@ -4,6 +4,7 @@ Trabajo final de la materia "Introducción a las técnicas inteligentes de resol
 - Notebook con el código explicado: *Notas y código.ipynb*
 - Archivo Readme: *README.md*
 - Imagen NDVI resultante: *ndviImage.tif*
+- *.gitignore*  
 ## Introducción  
 Para este trabajo se implementó un programa en Python para el cálculo de NDVI en un cuerpo de agua.  
 Se implementó a partir de un archivo zipeado del recorte de la zona de estudio de una imagen satelital Landsat 8, en una fecha dada. El archivo zip contiene las bandas ópticas del sensor.
