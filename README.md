@@ -26,7 +26,7 @@ La ejecución se conforma de 5 pasos:
    1. Se recortan las bandas 4 y 5 en base a la máscara de MNDWI.
 6. **Cálculo de NDVI y exportación de imagen**
    1. A partir de las bandas 4 y 5 recortadas se calcula el NDVI.  
-   Fórmula de referencia *NDVI = (Rojo – NIR)/(Rojo + NIR)*
+   Fórmula de referencia *NDVI = (NIR – Rojo)/(NIR + Rojo)*
 
 Para la ejecución demo se utilizó una imagen del 14-05-2023 y se selecciónó como zona de estudio el Embalse Los Molinos. La zona de estudio corresponde a un subset espacial, en forma de cuadrilátero, que contiene el lago.
 ## Instalación  
@@ -37,5 +37,9 @@ Construido y ejecutado en *Python 3.11.7*
 - matplotlib  
 - rasterio  
 - zipfile  
+## Bibliografía
+- https://eos.com/es/make-an-analysis/ndvi/
+- Xu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. International Journal of Remote Sensing, 27(14), 3025–3033. https://doi.org/10.1080/01431160600589179
+
 ## Autor  
 **Biol. Manuel Zeballos**
