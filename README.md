@@ -39,4 +39,3 @@ Construido y ejecutado en *Python 3.11.7*
 - zipfile  
 ## Autor  
 **Biol. Manuel Zeballos**
-----
